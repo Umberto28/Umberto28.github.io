@@ -1,0 +1,286 @@
+{
+  "projects": [
+    {
+      "id": "p-006",
+      "details": {
+        "title": "Folding Days (2025)",
+        "tags": [
+          "UE5",
+          "Blueprints",
+          "Game Jam"
+        ],
+        "participants": 3,
+        "time": "2 Days",
+        "startTime": "",
+        "endTime": ""
+      },
+      "captionHighlight": "Narrative experience on the theme \"waiting\" developed at the Roma Game Jam 2025.",
+      "captionPortfolio": "Third-person narrative experience developed at the Roma Game Jam 2025 (2 days) based on the theme \"waiting\". It was created using Unreal Engine 5.",
+      "description": {
+        "summary": "Folding Days is a small narrative management game developed for the Roma Game Jam 2025 (on-site) by me and two of my friends. In this game jam, the theme was \"waiting\", and we had just 48 hours to build a game around this concept. We explored it through the lens of depression and mental health, proposing an experience set entirely within a single location, where players live a week in the life of a young person struggling with their insecurities and fears. We also wanted to add some depth to the gameplay system by combining narrative choices with some management mechanics, as players decide how to respond to interactions from parents, friends, and daily tasks. In fact, each decision affects the stress level and the internalization of concepts, leading to multiple endings ranging from hopeful to somber. <br><br> The game features seven days of different interactions/tasks, a fixed third-person camera perspective in the room of the main character and a minimalist and impactful art style. With these design choices, we thought about how to put players in the right mood so that they could feel the loneliness and the difficulty that can come with dealing with emotions.",
+        
+        "role": "In this jam, I mainly worked as a programmer, performing the following tasks:",
+        
+        "tasks": [
+          "Design and implement the main menu interface with a narrative-appropriate mood",
+          "Create a hierarchical Blueprint class system for all interactable objects, using parent-child inheritance for code reusability and easy content expansion, and allowing for multiple object types with unique behaviors and parameters",
+          "Program a complete task logic system, managing daily activities, player choices, and consequence tracking",
+          "Develop a dynamic UI system displaying real-time stress levels and the current day",
+          "Implement a phase management system that controls day-night cycles, defining possible interactions and triggers based on it",
+          "Contribute to level assembly, placing interactive objects and defining spatial player interactions"
+        ],
+        
+        "results": "At the end of the jam, there was a brief showcase where the jury and the participants could try all the games. They emphasized our game's potential for social impact and mental health awareness. I think that games still have the great power to explore sensitive topics with empathy and nuance, and we tried to bring our view of it. Despite the intense 48 hours during which I truly understood the importance of sleep, we delivered a functional prototype showcasing multiple endings and meaningful player agency, and we also won the \"Best Art\" award. This experience was really exciting and inspiring, and it reinforced critical lessons about rapid prototyping, prioritizing features under extreme time pressure, and the importance of thorough UX design when dealing with complex emotional themes."
+      },
+      "links": {
+        "youtubeUrl": "https://www.youtube.com/embed/peP_FfUXKoQ?si=mAhuIwmmibwO9c_v",
+        "githubUrl": "",
+        "itchioUrl": ""
+      },
+      "gallery": [],
+      "category": "game-jam",
+      "isFeatured": false
+    },
+    {
+      "id": "p-005",
+      "details": {
+        "title": "Just Get Started (2025)",
+        "tags": [
+          "UE5",
+          "Blueprints",
+          "Game Jam"
+        ],
+        "participants": 4,
+        "time": "10 Days",
+        "startTime": "",
+        "endTime": ""
+      },
+      "captionHighlight": "Adventure game developed at the Inbound Shovel Game Jam 2025 on the theme \"just get started\".",
+      "captionPortfolio": "Adventure experience developed at the Inbound Shovel Game Jam 2025 (10 days) based on the theme \"just get started\". It was created using Unreal Engine 5.",
+      "description": {
+        "summary": "Just Get Started is a meta-adventure game that three of my friends and I developed for the Inbound Shovel Game Jam 2025 (remote). The theme of the jam was \"just get started\", and we had 10 days to create a game that fit this theme. We came up with the idea of making a game where the main purpose is to actually start playing the game. So, the player has to find in the settings a way to get the real game started. <br><br> The game playfully subverts players' expectations by preventing them from accessing the actual game from the main menu, due to misconfigured options. They therefore navigate through a first-person dungeon that represents the game's settings menu, solving puzzles and interacting with a self-aware developer character to fix all the issues. The experience culminates in finally starting the game, which turns out to be a simple cookie-clicker type mini-game.",
+        
+        "role": "In this jam, I mainly worked as a Gameplay Programmer, and the tasks I completed are:",
+        
+        "tasks": [
+          "Design and implement the interactive main menu with dynamic UI behaviors, including multi-phase interactions",
+          "Program the complete blueprint system for the dungeon level, integrating developer dialogue triggers and interactive object responses",
+          "Create a fighting mini-game with a horizontal scrolling camera system and a basic enemy AI combat behavior",
+          "Develop the mirror-movement puzzle mechanic with dynamic top-down camera switching, for spatial gameplay variation",
+          "Implement the audio management system, including background music, sound effects, and adaptive audio triggers",
+          "Build the final cookie clicker mini-game",
+          "Coordinate the blueprint architecture across all game systems to ensure cohesive gameplay flow"
+        ],
+        
+        "results": "At the end of the jam, we successfully published a playable build of the game on itch.io, receiving positive community feedback about the game's humor and the creative interpretation of the jam theme. As my first game jam ever, it was a really fun and challenging experience that gave me an understanding of how game jams work. My personal goal was to be able to deliver the gaming experience as we had imagined it, hoping that participants would enjoy it, and I think we achieved that, although on a small scale. These intense 10 days of development reinforced valuable lessons about feature prioritization under strict deadlines and the importance of focusing on core experience over feature creep. Moreover, the experience enhanced my proficiency with Unreal Engine 5's Blueprint system and strengthened my ability to rapidly prototype and iterate on gameplay systems."
+      },
+      "links": {
+        "youtubeUrl": "https://www.youtube.com/embed/4yzLjz9d_kk?si=xx5Lv2Qktve8sPv4",
+        "githubUrl": "https://github.com/Umberto28/just_get_started",
+        "itchioUrl": "https://itch.io/jam/shovel-jam-2025/rate/3737113"
+      },
+      "gallery": [
+        "/images/p-005/screen01.png",
+        "/images/p-005/screen02.png",
+        "/images/p-005/screen03.png",
+        "/images/p-005/screen04.png",
+        "/images/p-005/screen05.png",
+        "/images/p-005/screen06.png",
+        "/images/p-005/screen07.png"
+      ],
+      "category": "game-jam",
+      "isFeatured": true
+    },
+    {
+      "id": "p-004",
+      "details": {
+        "title": "MSGS (2025)",
+        "tags": [
+          "UE5",
+          "Blueprints",
+          "Technical Animation",
+          "Arena"
+        ],
+        "participants": 3,
+        "time": "1 Months",
+        "startTime": "",
+        "endTime": ""
+      },
+      "captionHighlight": "",
+      "captionPortfolio": "Multiplayer 2.5D wave arena shooter prototype focused on the animation system. Developed as a \"Technical Animation\" academic project work using Unreal Engine 5.",
+      "description": {
+        "summary": "MSGS is a 2.5D wave-based arena shooter that two of my colleagues and I developed as our final project for the \"Technical Animation\" module at ITS Rossellini. The professor's request was to make a small game or a cutscene that had enough animations to be properly evaluated. So, we came up with a simplified 2.5D version of Metal Slug gameplay (this is where the name comes from, but unfortunately, it wasn't my idea), with one arena level where the player has to defeat hordes of enemies, and mechanics mainly focused on different animations. <br><br> The game features basic shooter gameplay systems, including mouse-aimed shooting with smooth blending, a dynamic crouch mechanic integrated with base locomotion, and grenades throwing. The project was built in Unreal Engine 5 with support for local 2-player multiplayer, and it showcases the integration of structured animation blueprints with responsive gameplay mechanics. Enemy AI utilizes behavior trees for intelligent pursuit and combat behaviors, dynamically switching between chase and ranged attack states, based on player distance. The arena map features different obstacles that test both the animation system's adaptability and the AI's navigation capabilities.",
+        
+        "role": "For this project, I primarily worked as an AI Programmer and Level Designer, completing the following tasks:",
+        
+        "tasks": [
+          "Design and build a complete arena-level layout with strategic cover points and navigation challenges",
+          "Implement enemy AI behavior tree with pursuit, range-finding, and combat attack states",
+          "Integrate Navigation Links (NavLinks) to enable AI pathfinding over obstacles and elevation changes",
+          "Develop the health and damage system for both player characters and enemy units",
+          "Create a comprehensive UI system, including HUD, health displays, and game state indicators",
+          "Contribute to Animation Blueprint setup, replicating player animation logic for enemy characters",
+          "Ensure that the animation blending worked seamlessly with gameplay mechanics like aiming and crouching"
+        ],
+        
+        "results": "At the end of the project, we achieved an excellent grade (30/30) for the \"Technical Animation\" module, as we successfully delivered a functional prototype demonstrating the integration of various animations with gameplay systems. While the core mechanics and animations were implemented properly, I think I gained some valuable insights about the importance of accurate testing and polish phases. This experience improved my understanding of Unreal Engine 5's Animation Blueprint system and reinforced my confidence in AI programming and gameplay mechanics implementation."
+      },
+      "links": {
+        "youtubeUrl": "https://www.youtube.com/embed/PzONEaF2nJY?si=vez8oC7Bh6Yfpl1F",
+        "githubUrl": "https://github.com/Umberto28/tech_anim_project",
+        "itchioUrl": ""
+      },
+      "gallery": [
+        "/images/p-004/screen01.png",
+        "/images/p-004/screen02.png",
+        "/images/p-004/screen03.png",
+        "/images/p-004/screen04.png",
+        "/images/p-004/screen05.png"
+      ],
+      "category": "personal-project",
+      "isFeatured": false
+    },
+    {
+      "id": "p-003",
+      "details": {
+        "title": "Crowd Simulation (2024-25)",
+        "tags": [
+          "UE5",
+          "Blueprints",
+          "MSc Thesis",
+          "AI"
+        ],
+        "participants": 1,
+        "time": "6 Months",
+        "startTime": "",
+        "endTime": ""
+      },
+      "captionHighlight": "Simulation of crowd behavior developed as a Master's thesis at Roma Tre University.",
+      "captionPortfolio": "Simulation of crowd behavior in a heterogeneous environment, focused on AI and pathfinding. Developed as my Master's thesis at Roma Tre University using Unreal Engine 5.",
+      "description": {
+        "summary": "This project represents an AI-based crowd simulation system developed by me as my Master's thesis at Roma Tre University, using Unreal Engine 5. I was looking for a project that would make me understand an important mechanic used in video game development, and thus expand my knowledge on this topic. While discussing with my professor, we came up with the idea of building a simulation of a group of NPCs in a complex environment (with curves, crossroads and other deformations). Here, the agents have to travel through a defined path while coordinating with each other to keep a realistic behavior. <br><br> The system simulates the group behavior for large numbers of NPCs moving in a heterogeneous environment, with dynamic pathfinding, collision avoidance, and cohesive group movement. The simulation takes place in a custom-designed map characterized by varied terrain, including curves, bottlenecks, and branching paths, testing the robustness of the AI algorithms. Each NPC generates a unique procedural path at runtime while staying within designated boundaries, creating natural variation in movement patterns. In addition, the system dynamically adjusts the speeds of individual NPCs, maintaining formation cohesion throughout the simulation.",
+        "role": "As a solo developer, I completed these tasks:",
+        "tasks": [
+          "Create the map for the simulation. I used Landscape and PCG tools to define the environment and to place the assets",
+          "Architect the NPC spawning system for crowd generation",
+          "Implement a custom spline-based pathfinding system using dynamically generated waypoints across the defined path",
+          "Develop procedural variations using Perlin Noise on spline points to create unique routes for each agent while maintaining formation boundaries",
+          "Build the behavior tree for NPC decision-making and group coordination",
+          "Program a dynamic speed management system that calculates the group center position along the spline and adjusts individual NPC speeds based on distance thresholds",
+          "Exploit the Unreal Engine 5 collision avoidance algorithm (Detour Crowd) to prevent NPC overlapping while maintaining natural movement",
+          "Design a complex test environment, including curves, crossroads, and bottlenecks, to validate AI behavior under varied conditions"
+        ],
+        "results": "With this project, I successfully defended my Master's thesis, graduating with top marks (110/110) at Roma Tre University. I delivered a complete simulation of the behavior of a group of NPCs traveling through a complex environment, and tested its performance on low-end hardware. The project was positively evaluated as a solid foundation for crowd simulation systems with potential for expansion. Working on it was truly inspiring for me, as I reinforced my knowledge of AI and behavior trees, and studying crowd simulation methods sparked my interest in AI programming for video games, which I would like to explore further in future projects."
+      },
+      "links": {
+        "youtubeUrl": "https://www.youtube.com/embed/uNpvhRI8GbU?si=zQVBGL6tCYYm2hfZ",
+        "githubUrl": "",
+        "itchioUrl": ""
+      },
+      "gallery": [
+        "/images/p-003/screen01.png",
+        "/images/p-003/screen02.png",
+        "/images/p-003/screen03.png",
+        "/images/p-003/screen04.png",
+        "/images/p-003/screen05.png",
+        "/images/p-003/screen06.png",
+        "/images/p-003/screen07.png"
+      ],
+      "category": "personal-project",
+      "isFeatured": true
+    },
+    {
+      "id": "p-002",
+      "details": {
+        "title": "The Blackout (2024-25)",
+        "tags": [
+          "UE5",
+          "Blueprints",
+          "3D",
+          "Puzzle"
+        ],
+        "participants": 2,
+        "time": "4 Months",
+        "startTime": "",
+        "endTime": ""
+      },
+      "captionHighlight": "3D Puzzle Game based on the use of a flashlight developed as an academic project work.",
+      "captionPortfolio": "First-person 3D puzzle game based on the use of a flashlight. Developed as a \"Computer Graphics\" academic project work using Unreal Engine 5.",
+      "description": {
+        "summary": "The Blackout is an atmospheric 3D environmental puzzle game that one of my colleagues and I developed as the final project for the \"Computer Graphics\" academic course (Master's degree at Roma Tre University). Similar to the \"Mobile Computing\" course, the goal was to create a 3D animation or a 3D game demo. So, we decided to build a game in Unreal Engine 5 where the player controls a robot exploring a dark, abandoned space station, using a flashlight to restore power by charging generators scattered throughout different rooms. We thought that it would have been interesting to delve into the use of lighting in video games for both gameplay and environment. <br><br> The game has three levels (rooms of the space station) that combine puzzle-solving with spatial awareness. In fact, the player has to find the generators and recharge them all before they run out of energy again, requiring quick management. The final level introduces laser mechanics that interact with special switches to unlock some of the generators, adding complexity to the puzzle-solving experience.",
+        "role": "I mainly worked as a Level Designer and a Gameplay Programmer for this project, performing the following tasks:",
+        "tasks": [
+          "Co-design and co-implement environmental puzzle mechanics focused on generator recharging and power restoration",
+          "Co-design space station rooms, with increasing difficulty and spatial complexity",
+          "Implement complete level layouts and environments for all three levels",
+          "Develop player character mechanics, including movement, animations, and the flashlight interaction system",
+          "Program laser mechanics for the third level, including beam mirroring and switch activation logic",
+          "Script the opening cutscene using Unreal's Sequencer to establish narrative context and atmosphere",
+          "Crafted lighting setups and post-processing effects to create an immersive abandoned station ambiance"
+        ],
+        "results": "At the end of the project, we achieved the top grade (30 cum laude) for the academic course, having successfully delivered a playable demo featuring three distinct rooms. Unfortunately, we couldn't add more puzzles we had in mind due to the time we had. However, I think this game idea can be explored further, creating interesting and challenging puzzle scenarios. In any case, this project allowed me to expand my technical skills in Unreal Engine 5, to begin to understand how lighting works, to challenge myself with some game and level design tasks, and to solidify my emerging passion for game development."
+      },
+      "links": {
+        "youtubeUrl": "https://www.youtube.com/embed/ySs4GmCEzpk?si=UO7F5y3fn0qxX4Ui",
+        "githubUrl": "https://github.com/Frabosco/Computer-Graphics",
+        "itchioUrl": ""
+      },
+      "gallery": [
+        "/images/p-002/HighresScreenshot00005.png",
+        "/images/p-002/screenshot01.png",
+        "/images/p-002/screenshot02.png",
+        "/images/p-002/screenshot03.png",
+        "/images/p-002/screenshot04.png",
+        "/images/p-002/screenshot05.png",
+        "/images/p-002/screenshot06.png",
+        "/images/p-002/screenshot07.png"
+      ],
+      "category": "personal-project",
+      "isFeatured": true
+    },
+    {
+      "id": "p-001",
+      "details": {
+        "title": "Portal Warriors (2022)",
+        "tags": [
+          "Unity",
+          "C#",
+          "Mobile",
+          "Platformer"
+        ],
+        "participants": 3,
+        "time": "4 Months",
+        "startTime": "",
+        "endTime": ""
+      },
+      "captionHighlight": "",
+      "captionPortfolio": "2D pixel art mobile platform game set in a fantasy world. Developed as a \"Mobile Computing\" academic project work using Unity.",
+      "description": {
+        "summary": "Portal Warriors is a 2D pixel-art fantasy platformer I developed with two colleagues as the final project for the \"Mobile Computing\" academic course (Bachelor's degree at Roma Tre University). The goal was to create a mobile game demo using Unity, and we thought about a retro-styled game inspired by arcade experiences such as Metal Slug or Castlevania. However, we wanted to build a project where each of us could explore the development of a different style, environment and gameplay, but including them all in a common and consistent context. <br><br> The game features three distinct worlds (Aliens, Demons, and Skeletons) that the main characters must get rid of horrible creatures, each with unique enemies and a final boss fight. It showcases classic platformer and action mechanics (jump, shoot, roll and melee attack) with basic enemy AI behaviors.",
+        "role": "I workes as a Gameplay Programmer and Level Designer for the first world, as well as a UI Designer. The tasks I completed are:",
+        "tasks": [
+          "Design and implement the main menu system, with level selection interface for mobile touch controls",
+          "Create complete gameplay mechanics of jumping and shooting arrows, with dedicated UI touch controls",
+          "Design the level of the Alien world, using tilemaps for implementation",
+          "Program enemy AI behaviors, including patrol patterns, player detection, and attack states",
+          "Develop boss fight mechanics with two different attack phases",
+          "Implement the UI system, including HUD, health bars, and game state management"
+        ],
+        "results": "At the end of the project, we achieved the top grade (30 cum laude) for the academic course, having completed a playable demo for mobile devices with three fully functional levels showcasing different gameplay challenges. This project marked my entry into the world of video game development and allowed me to begin to understand what goes on behind the scenes, making the transition from player to developer a more realistic possibility for me."
+      },
+      "links": {
+        "youtubeUrl": "https://www.youtube.com/embed/yrHI0pmGzmk?si=zTxlkDRrUJ4noFYe",
+        "githubUrl": "https://github.com/Edoardo644/Mobile-Computing-Project",
+        "itchioUrl": ""
+      },
+      "gallery": [
+        "/images/p-001/Screenshot_20251017_172843_PortalWarriors.jpg",
+        "/images/p-001/Screenshot_20251017_172933_PortalWarriors.jpg",
+        "/images/p-001/Screenshot_20251017_173023_PortalWarriors.jpg",
+        "/images/p-001/Screenshot_20251017_173120_PortalWarriors.jpg"
+      ],
+      "category": "personal-project",
+      "isFeatured": false
+    }
+  ]
+}
