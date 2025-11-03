@@ -790,7 +790,7 @@ body.is-preload .project-card {
 	display: grid;
 	grid-template-rows: auto auto 1fr;
 	position: relative;
-	padding: 1em 1em 1em 1em;
+	padding: 1em;
 	height: 100%;
 	box-sizing: border-box;
 	gap: 0;
@@ -1230,6 +1230,10 @@ body.is-preload .project-card {
 		padding-left: 8%;
 		padding-right: 8%;
 	}
+
+	.project-card > a {
+		padding: 0.6em;
+	}
 	
 	.project-card h3 {
 		font-size: clamp(0.8em, 4.7cqw, 1.35em);
@@ -1238,6 +1242,11 @@ body.is-preload .project-card {
 
 	.project-card p {
 		font-size: clamp(0.5em, 3.3cqw, 1em);
+	}
+
+	
+	.project-card .pin {
+		font-size: clamp(0.4em, 3.4cqw, 0.7em);
 	}
 
 	.row > .col-4 {
@@ -1272,10 +1281,6 @@ body.is-preload .project-card {
 
 	.project-card p {
 		font-size: clamp(0.5em, 3.6cqw, 1em);
-	}
-
-	.project-card .pin {
-		font-size: clamp(0.4em, 3.4cqw, 0.7em);
 	}
 
 	.wrapper {

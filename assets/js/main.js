@@ -8,8 +8,7 @@
 
 	var	$window = $(window),
 		$body = $('body');
-
-	console.log('lesgoski');
+		
 	// Breakpoints.
 		breakpoints({
 			xlarge:  [ '1281px',  '1680px' ],

@@ -15,7 +15,8 @@
 			var	$this = $(this),
 				indent = Math.max(0, $this.parents('li').length - 1),
 				href = $this.attr('href'),
-				target = $this.attr('target');
+				target = $this.attr('target'),
+				className = $this.attr('class');
 
 			b.push(
 				'<a ' +
@@ -23,7 +24,7 @@
 					( (typeof target !== 'undefined' && target != '') ? ' target="' + target + '"' : '') +
 					( (typeof href !== 'undefined' && href != '') ? ' href="' + href + '"' : '') +
 				'>' +
-					'<span class="indent-' + indent + '"></span>' +
+					'<span class="' + ( (typeof className !== 'undefined' && className != '') ? className + ' ' : '') + 'indent-' + indent + '"></span>' +
 					$this.text() +
 				'</a>'
 			);

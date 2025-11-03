@@ -1470,11 +1470,15 @@ body.is-touch .tiles article .content {
 	.row > .col-6 { width: 100%;}
 
 	.feature-list h3 {
-		font-size: 0.9em;
+		font-size: 1em;
 	}
 
-	#contact a {
-		font-size: 0.6em;
+	#contact .feature-list {
+		align-items: center;
+	}
+
+	#contact .feature-list section {
+		margin-bottom: 0;
 	}
 
 	.feature-list img {
