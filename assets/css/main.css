@@ -40,6 +40,7 @@ footer, header, hgroup, menu, nav, section {
 
 html {
 	box-sizing: border-box;
+	zoom: 0.8;
 }
 
 *, *:before, *:after {
@@ -463,7 +464,7 @@ ul.actions.special {
 .feature-list img {
 	aspect-ratio: 1 / 1;
 	border-radius: 50%;
-	height: 80%;
+	height: 100%;
 }
 
 .feature-list h3 {
@@ -936,9 +937,10 @@ ul.actions.special {
 }
 
 .tiles article > a .content {
-	transition: max-height 0.5s ease, opacity 0.5s ease;
+	transition: transform 0.5s ease, opacity 0.5s ease;
 	width: 100%;
-	max-height: 0;
+	transform: scale(0.5);
+	max-height: 15em;
 	line-height: 1.5;
 	margin-top: 0.35em;
 	opacity: 0;
@@ -977,7 +979,7 @@ body:not(.is-touch) .tiles article:hover > .image:after {
 }
 
 body:not(.is-touch) .tiles article:hover .content {
-	max-height: 15em;
+	transform: scale(1);
 	opacity: 1;
 }
 
@@ -1096,8 +1098,8 @@ body.is-touch .tiles article .content {
    MEDIA QUERIES
    ======================================== */
 
-/* Breakpoint: 1920px */
-@media screen and (max-width: 1920px) {
+/* Breakpoint: 1680px */
+@media screen and (max-width: 1680px) {
 	.tiles article > a .content > h2 {
 		font-size: 1.7em;
 	}
@@ -1124,8 +1126,8 @@ body.is-touch .tiles article .content {
 	}
 }
 
-/* Breakpoint: 1680px */
-@media screen and (max-width: 1680px) {
+/* Breakpoint: 1280px */
+@media screen and (max-width: 1280px) {
 	#nav > ul > li > a, #nav > ul > li > span {
 		font-size: 0.8em;
 	}
@@ -1177,8 +1179,8 @@ body.is-touch .tiles article .content {
 	.row > .col-12-medium { width: 100%; }
 }
 
-/* Breakpoint: 1280px */
-@media screen and (max-width: 1280px) {
+/* Breakpoint: 980px */
+@media screen and (max-width: 980px) {
 	#nav > ul > li > a, #nav > ul > li > span {
 		font-size: 0.7em;
 	}
@@ -1231,8 +1233,8 @@ body.is-touch .tiles article .content {
 	.row > .col-12-medium { width: 100%; }
 }
 
-/* Below 980px - Mobile Navigation & Adjustments */
-@media screen and (max-width: 980px) {
+/* Breakpoint: 736px*/
+@media screen and (max-width: 736px) {
 	.homepage #header {
 		height: 45em;
 	}
@@ -1243,6 +1245,12 @@ body.is-touch .tiles article .content {
 
 	.wrapper .title {
 		font-size: 1.1em;
+	}
+
+	#logo h1 {
+		font-size: 1.9em;
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 
 	#intro {
@@ -1274,12 +1282,20 @@ body.is-touch .tiles article .content {
 	}
 		
 	.tiles {
-		margin: 3em 12%;
+		margin: 3em 10%;
 	}
 	
 	.tiles article {
 		width: 100%;
-		margin: 3em 12%;
+		margin: 3em 10%;
+	}
+
+	.tiles article > a .content > h2 {
+		font-size: 1em;
+	}
+
+	.tiles article > a .content p {
+		font-size: 0.8em;
 	}
 
 	#intro .container {
@@ -1407,68 +1423,7 @@ body.is-touch .tiles article .content {
 	}
 }
 
-/* Breakpoint: 736px */
-@media screen and (max-width: 736px) {	
-	.homepage #header {
-		height: 40em;
-	}
-
-	#logo h1 {
-		font-size: 1.9em;
-		padding-left: 5%;
-		padding-right: 5%;
-	}
-
-	#logo p {
-		font-size: 1em;
-	}
-
-	#social-list {
-		font-size: 1.5em;
-	}
-
-	.tiles {
-        margin: 1em 7%;
-    }
-
-	.tiles article {
-        margin: 2em 0.5em;
-    }
-
-	.tiles article > .image .pin {
-		font-size: 0.7em;
-	}
-
-	.button.large {
-        font-size: 0.7em;
-    }
-
-	#intro p.style2 {
-		font-size: 1.2em;
-	}
-
-	#intro p.style3 {
-		font-size: 0.8em;
-	}
-
-	.feature-list h3 {
-		font-size: 1em;
-	}
-
-	#contact a {
-		font-size: 0.7em;
-	}
-
-	.feature-list img {
-		height: 70%;
-	}
-
-	#copyright ul {
-		font-size: 0.7em;
-	}
-
-}
-
+/* Breakpoint: 480px */
 @media screen and (max-width: 480px) {
 	#logo h1 {
 		font-size: 2em;

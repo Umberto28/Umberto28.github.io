@@ -55,6 +55,7 @@ input, select, textarea {
 
 html {
 	box-sizing: border-box;
+	zoom: 0.8;
 }
 
 *, *:before, *:after {
@@ -1138,13 +1139,13 @@ body.is-preload .gallery-card article {
    MEDIA QUERIES
    ======================================== */
 
-/* Breakpoint: 1920px */
-@media screen and (max-width: 1920px) {
+/* Breakpoint: 1680px */
+@media screen and (max-width: 1680px) {
 	
 }
 
-/* Breakpoint: 1680px */
-@media screen and (max-width: 1680px) {
+/* Breakpoint: 1280px */
+@media screen and (max-width: 1280px) {
 	#nav > ul > li > a, #nav > ul > li > span {
 		font-size: 0.8em;
 	}
@@ -1182,8 +1183,8 @@ body.is-preload .gallery-card article {
 	}
 }
 
-/* Breakpoint: 1280px */
-@media screen and (max-width: 1280px) {
+/* Breakpoint: 980px */
+@media screen and (max-width: 980px) {
 	#nav > ul > li > a, #nav > ul > li > span {
 		font-size: 0.7em;
 	}
@@ -1224,7 +1225,7 @@ body.is-preload .gallery-card article {
 
 	#project-description-content.container {
 		padding: 2em;
-		margin: 0 10% 0 10%;
+		margin: 0 5% 0 5%;
 	}
 
 	#description h3 {
@@ -1235,13 +1236,17 @@ body.is-preload .gallery-card article {
 		font-size: 1.1em;
 	}
 
+	#gallery .container {
+		margin: 0 5% 0 5%;
+	}
+
 	.gallery-card article {
         width: 80%;
     }
 }
 
-/* Below 980px - Mobile Navigation & Adjustments */
-@media screen and (max-width: 980px) {
+/* Breakpoint: 736px */
+@media screen and (max-width: 736px) {
 	.homepage #header {
 		height: 45em;
 	}
@@ -1379,8 +1384,8 @@ body.is-preload .gallery-card article {
 	}
 }
 
-/* Breakpoint: 736px */
-@media screen and (max-width: 736px) {	
+/* Breakpoint: 480px */
+@media screen and (max-width: 480px) {	
 	.homepage #header {
 		height: 40em;
 	}
@@ -1401,7 +1406,7 @@ body.is-preload .gallery-card article {
 
 	#project-description-content.container {
         padding: 2em;
-        margin: 0 7% 0 7%;
+        margin: 0 2% 0 2%;
     }
 
 	#description {
@@ -1425,7 +1430,8 @@ body.is-preload .gallery-card article {
 	}
 }
 
-@media screen and (max-width: 480px) {
+/* Breakpoint: 350px */
+@media screen and (max-width: 350px) {
 	#logo h1 {
 		font-size: 2em;
 	}

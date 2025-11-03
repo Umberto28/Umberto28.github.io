@@ -18,9 +18,7 @@
       "captionPortfolio": "Third-person narrative experience developed at the Roma Game Jam 2025 (2 days) based on the theme \"waiting\". It was created using Unreal Engine 5.",
       "description": {
         "summary": "Folding Days is a small narrative management game developed for the Roma Game Jam 2025 (on-site) by me and two of my friends. In this game jam, the theme was \"waiting\", and we had just 48 hours to build a game around this concept. We explored it through the lens of depression and mental health, proposing an experience set entirely within a single location, where players live a week in the life of a young person struggling with their insecurities and fears. We also wanted to add some depth to the gameplay system by combining narrative choices with some management mechanics, as players decide how to respond to interactions from parents, friends, and daily tasks. In fact, each decision affects the stress level and the internalization of concepts, leading to multiple endings ranging from hopeful to somber. <br><br> The game features seven days of different interactions/tasks, a fixed third-person camera perspective in the room of the main character and a minimalist and impactful art style. With these design choices, we thought about how to put players in the right mood so that they could feel the loneliness and the difficulty that can come with dealing with emotions.",
-        
         "role": "In this jam, I mainly worked as a programmer, performing the following tasks:",
-        
         "tasks": [
           "Design and implement the main menu interface with a narrative-appropriate mood",
           "Create a hierarchical Blueprint class system for all interactable objects, using parent-child inheritance for code reusability and easy content expansion, and allowing for multiple object types with unique behaviors and parameters",
@@ -29,7 +27,6 @@
           "Implement a phase management system that controls day-night cycles, defining possible interactions and triggers based on it",
           "Contribute to level assembly, placing interactive objects and defining spatial player interactions"
         ],
-        
         "results": "At the end of the jam, there was a brief showcase where the jury and the participants could try all the games. They emphasized our game's potential for social impact and mental health awareness. I think that games still have the great power to explore sensitive topics with empathy and nuance, and we tried to bring our view of it. Despite the intense 48 hours during which I truly understood the importance of sleep, we delivered a functional prototype showcasing multiple endings and meaningful player agency, and we also won the \"Best Art\" award. This experience was really exciting and inspiring, and it reinforced critical lessons about rapid prototyping, prioritizing features under extreme time pressure, and the importance of thorough UX design when dealing with complex emotional themes."
       },
       "links": {
@@ -37,7 +34,11 @@
         "githubUrl": "",
         "itchioUrl": ""
       },
-      "gallery": [],
+      "gallery": [
+        "/images/p-006/FD_1.jpg",
+        "/images/p-006/FD_2.jpg",
+        "/images/p-006/FD_3.jpg"
+      ],
       "category": "game-jam",
       "isFeatured": false
     },
@@ -59,9 +60,7 @@
       "captionPortfolio": "Adventure experience developed at the Inbound Shovel Game Jam 2025 (10 days) based on the theme \"just get started\". It was created using Unreal Engine 5.",
       "description": {
         "summary": "Just Get Started is a meta-adventure game that three of my friends and I developed for the Inbound Shovel Game Jam 2025 (remote). The theme of the jam was \"just get started\", and we had 10 days to create a game that fit this theme. We came up with the idea of making a game where the main purpose is to actually start playing the game. So, the player has to find in the settings a way to get the real game started. <br><br> The game playfully subverts players' expectations by preventing them from accessing the actual game from the main menu, due to misconfigured options. They therefore navigate through a first-person dungeon that represents the game's settings menu, solving puzzles and interacting with a self-aware developer character to fix all the issues. The experience culminates in finally starting the game, which turns out to be a simple cookie-clicker type mini-game.",
-        
         "role": "In this jam, I mainly worked as a Gameplay Programmer, and the tasks I completed are:",
-        
         "tasks": [
           "Design and implement the interactive main menu with dynamic UI behaviors, including multi-phase interactions",
           "Program the complete blueprint system for the dungeon level, integrating developer dialogue triggers and interactive object responses",
@@ -71,7 +70,6 @@
           "Build the final cookie clicker mini-game",
           "Coordinate the blueprint architecture across all game systems to ensure cohesive gameplay flow"
         ],
-        
         "results": "At the end of the jam, we successfully published a playable build of the game on itch.io, receiving positive community feedback about the game's humor and the creative interpretation of the jam theme. As my first game jam ever, it was a really fun and challenging experience that gave me an understanding of how game jams work. My personal goal was to be able to deliver the gaming experience as we had imagined it, hoping that participants would enjoy it, and I think we achieved that, although on a small scale. These intense 10 days of development reinforced valuable lessons about feature prioritization under strict deadlines and the importance of focusing on core experience over feature creep. Moreover, the experience enhanced my proficiency with Unreal Engine 5's Blueprint system and strengthened my ability to rapidly prototype and iterate on gameplay systems."
       },
       "links": {
@@ -110,9 +108,7 @@
       "captionPortfolio": "Multiplayer 2.5D wave arena shooter prototype focused on the animation system. Developed as a \"Technical Animation\" academic project work using Unreal Engine 5.",
       "description": {
         "summary": "MSGS is a 2.5D wave-based arena shooter that two of my colleagues and I developed as our final project for the \"Technical Animation\" module at ITS Rossellini. The professor's request was to make a small game or a cutscene that had enough animations to be properly evaluated. So, we came up with a simplified 2.5D version of Metal Slug gameplay (this is where the name comes from, but unfortunately, it wasn't my idea), with one arena level where the player has to defeat hordes of enemies, and mechanics mainly focused on different animations. <br><br> The game features basic shooter gameplay systems, including mouse-aimed shooting with smooth blending, a dynamic crouch mechanic integrated with base locomotion, and grenades throwing. The project was built in Unreal Engine 5 with support for local 2-player multiplayer, and it showcases the integration of structured animation blueprints with responsive gameplay mechanics. Enemy AI utilizes behavior trees for intelligent pursuit and combat behaviors, dynamically switching between chase and ranged attack states, based on player distance. The arena map features different obstacles that test both the animation system's adaptability and the AI's navigation capabilities.",
-        
         "role": "For this project, I primarily worked as an AI Programmer and Level Designer, completing the following tasks:",
-        
         "tasks": [
           "Design and build a complete arena-level layout with strategic cover points and navigation challenges",
           "Implement enemy AI behavior tree with pursuit, range-finding, and combat attack states",
@@ -122,7 +118,6 @@
           "Contribute to Animation Blueprint setup, replicating player animation logic for enemy characters",
           "Ensure that the animation blending worked seamlessly with gameplay mechanics like aiming and crouching"
         ],
-        
         "results": "At the end of the project, we achieved an excellent grade (30/30) for the \"Technical Animation\" module, as we successfully delivered a functional prototype demonstrating the integration of various animations with gameplay systems. While the core mechanics and animations were implemented properly, I think I gained some valuable insights about the importance of accurate testing and polish phases. This experience improved my understanding of Unreal Engine 5's Animation Blueprint system and reinforced my confidence in AI programming and gameplay mechanics implementation."
       },
       "links": {
